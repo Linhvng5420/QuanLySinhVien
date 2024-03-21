@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_nav_Home"
+        android:icon="@drawable/l_baseline_home_24"
+        android:title="Home" />
+
+    <item android:title="Quản Lý Đào Tạo">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_Khoa"
+                android:icon="@drawable/baseline_library_books_24"
+                android:title="Chương Trình Đào Tạo" />
+            <item
+                android:id="@+id/menu_nav_DKmon"
+                android:icon="@drawable/baseline_assignment_turned_in_24"
+                android:title="Đăng Ký Học Phần" />
+        </menu>
+    </item>
+
+    <item android:title="Quản Lý Thông Tin">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_Info"
+                android:icon="@drawable/l_baseline_list_alt_24"
+                android:title="Sinh Viên" />
+            <item
+                android:id="@+id/menu_nav_ThongKeBarChart"
+                android:icon="@drawable/baseline_add_chart_24"
+                android:title="Thống Kê SV Toàn Khoa" />
+        </menu>
+    </item>
+
+    <item android:title="Quản Lý Học Tập">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_Score"
+                android:icon="@drawable/l_baseline_sports_score_24"
+                android:title="Điểm Số" />
+        </menu>
+    </item>
+
+    <item android:title="Option">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_TaiKhoan"
+                android:icon="@drawable/baseline_account_box_24"
+                android:title="Tài Khoản" />
+            <item
+                android:id="@+id/menu_nav_DieuKhoan"
+                android:icon="?attr/actionModePasteDrawable"
+                android:title="Điều Khoản Sử Dụng" />
+            <item
+                android:id="@+id/menu_nav_Dangxuat"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Đăng Xuất" />
+        </menu>
+    </item>
+
+
+    <!--    <item android:title="Option">-->
+    <!--        <menu></menu>-->
+    <!--    </item>-->
+    <!--    <item android:title="Option">-->
+    <!--        <menu></menu>-->
+    <!--    </item>-->
+    <!--    <item android:title="Option">-->
+    <!--        <menu></menu>-->
+    <!--    </item>-->
+
+</menu>

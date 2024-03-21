@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|start"
+    android:orientation="vertical"
+    tools:context=".Linh.L_SinhVien_Activity">
+
+    <!--    APP NAME-->
+
+    <!-- INFORMATION -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6750A3"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/tt_btnBack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:drawableBottom="@drawable/l_baseline_keyboard_backspace_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-50dp"
+            android:layout_weight="1"
+            android:text="DANH SÁCH SINH VIÊN"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- LIST VIEW -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tt_btnTimKiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#4CAE50"
+            android:drawableRight="?android:attr/actionModeFindDrawable"
+            android:text="Tìm Kiếm\nSinh Viên" />
+
+        <Button
+            android:id="@+id/tt_btnthem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#4CAF50"
+            android:drawableRight="@drawable/baseline_person_add_alt_1_24"
+            android:text="Thêm\nSinh Viên" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_dynamic_neutral90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Danh Sách Sinh Viên : " />
+
+        <TextView
+            android:id="@+id/tt_tvSoLuongSV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="So Luong"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/thongtin_lvSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="10dp"
+        android:textAlignment="textStart"></ListView>
+
+    <!-- BUTTONS -->
+</LinearLayout>
