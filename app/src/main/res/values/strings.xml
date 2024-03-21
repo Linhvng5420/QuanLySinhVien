@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Manager Student</string>
+
+    //
+    <string-array name="Khoa">
+        <item>CNTT</item>
+        <item>DO HOA</item>
+        <item>DIEN TU</item>
+    </string-array>
+
+    //
+    <string name="nav_drawer_open">Open Nav</string>
+    <string name="nav_drawer_close">Close Nav</string>
+
+
+    //
+    <string-array name="HocKy">
+        <item>HK1</item>
+        <item>HK2</item>
+        <item>HK3</item>
+        <item>HK4</item>
+        <item>HK5</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
